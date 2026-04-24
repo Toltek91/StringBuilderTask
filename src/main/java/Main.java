@@ -23,19 +23,19 @@ public class Main {
         undoSb.getHistory();
 
         undoSb.undo();
-        System.out.println("После отмены 1: ' " + undoSb + "'");
+        System.out.println("После отмены #1: ' " + undoSb + "'");
         undoSb.getHistory();
 
         undoSb.undo();
-        System.out.println("После отмены 2: ' " + undoSb + "'");
+        System.out.println("После отмены #2: ' " + undoSb + "'");
         undoSb.getHistory();
 
         undoSb.undo();
-        System.out.println("После отмены 3: ' " + undoSb + "'");
+        System.out.println("После отмены #3: '" + undoSb + "'");
         undoSb.getHistory();
 
         undoSb.undo();
-        System.out.println("После отмены 4: '" + undoSb + "'");
+        System.out.println("После отмены #4: '" + undoSb + "'");
         undoSb.getHistory();
 
 
